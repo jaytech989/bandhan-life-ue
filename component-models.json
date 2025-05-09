@@ -568,14 +568,16 @@
       {
         "component": "aem-content",
         "name": "cf-path",
-        "label": "Content Fragment Path"
+        "label": "Content Fragment Path",
+        "rootPath": "/content/dam/bandhan-ue-demo"
       },
       {
         "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
-        "multi": false
+        "multi": false,
+        "rootPath": "/content/dam/bandhan-life-ue-demo"
       }
     ]
   },
