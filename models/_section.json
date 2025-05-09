@@ -117,7 +117,8 @@
         "form-with-banner",
         "spreedsheetfragment",
         "inputform",
-        "topsearches"
+        "topsearches",
+        "aem-cf-component"
       ]
     }
   ]
