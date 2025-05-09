@@ -35,7 +35,7 @@ export default function decorate(block) {
                   const pictureEl = document.createElement('picture');
 
                     const imgEl = document.createElement('img');
-                    imgEl.setAttribute('src', '/content/dam/bandhan-life-ue-demo/iInvest-Advantage-icon.svg');
+                    imgEl.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2024-11/iInvest-Advantage-icon.svg');
                     imgEl.setAttribute('data-aue-prop', 'image');
                   pictureEl.append(imgEl);
                 divEl9.append(pictureEl);
@@ -72,7 +72,7 @@ export default function decorate(block) {
                   const pictureEl2 = document.createElement('picture');
 
                     const imgEl2 = document.createElement('img');
-                    imgEl2.setAttribute('src', '/content/dam/bandhan-life-ue-demo/iInvest-Advantage-icon.svg');
+                    imgEl2.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2024-11/iInvest-Advantage-icon.svg');
                     imgEl2.setAttribute('data-aue-prop', 'image');
                   pictureEl2.append(imgEl2);
                 divEl15.append(pictureEl2);
@@ -109,7 +109,7 @@ export default function decorate(block) {
                   const pictureEl3 = document.createElement('picture');
 
                     const imgEl3 = document.createElement('img');
-                    imgEl3.setAttribute('src', '/content/dam/bandhan-life-ue-demo/iInvest-Advantage-icon.svg');
+                    imgEl3.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2024-11/iInvest-Advantage-icon.svg');
                     imgEl3.setAttribute('data-aue-prop', 'image');
                   pictureEl3.append(imgEl3);
                 divEl21.append(pictureEl3);
@@ -162,7 +162,7 @@ export default function decorate(block) {
                   const pictureEl4 = document.createElement('picture');
 
                     const imgEl4 = document.createElement('img');
-                    imgEl4.setAttribute('src', '/content/dam/bandhan-life-ue-demo/PayPremium.svg');
+                    imgEl4.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2023-11/PayPremium.svg');
                     imgEl4.setAttribute('data-aue-prop', 'image');
                   pictureEl4.append(imgEl4);
                 divEl30.append(pictureEl4);
@@ -186,7 +186,7 @@ export default function decorate(block) {
                   const pictureEl5 = document.createElement('picture');
 
                     const imgEl5 = document.createElement('img');
-                    imgEl5.setAttribute('src', '/content/dam/bandhan-life-ue-demo/PayPremium.svg');
+                    imgEl5.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2023-11/PayPremium.svg');
                     imgEl5.setAttribute('data-aue-prop', 'image');
                   pictureEl5.append(imgEl5);
                 divEl34.append(pictureEl5);
@@ -210,7 +210,7 @@ export default function decorate(block) {
                   const pictureEl6 = document.createElement('picture');
 
                     const imgEl6 = document.createElement('img');
-                    imgEl6.setAttribute('src', '/content/dam/bandhan-life-ue-demo/PayPremium.svg');
+                    imgEl6.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2023-11/PayPremium.svg');
                     imgEl6.setAttribute('data-aue-prop', 'image');
                   pictureEl6.append(imgEl6);
                 divEl38.append(pictureEl6);
@@ -234,7 +234,7 @@ export default function decorate(block) {
                   const pictureEl7 = document.createElement('picture');
 
                     const imgEl7 = document.createElement('img');
-                    imgEl7.setAttribute('src', '/content/dam/bandhan-life-ue-demo/PayPremium.svg');
+                    imgEl7.setAttribute('src', 'https://www.bandhanlife.com/staticassets/2023-11/PayPremium.svg');
                     imgEl7.setAttribute('data-aue-prop', 'image');
                   pictureEl7.append(imgEl7);
                 divEl42.append(pictureEl7);
