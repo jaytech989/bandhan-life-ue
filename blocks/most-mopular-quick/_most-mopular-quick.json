@@ -36,6 +36,14 @@
           ]
         },
         {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false,
+          "rootPath": "/content/dam/bandhan-life-ue-demo"
+        },
+        {
           "component": "richtext",
           "name": "Heading1",
           "value": "",
@@ -43,13 +51,13 @@
           "valueType": "string",
           "multi": false
         },
-       {
-            "component": "text-input",
-            "label": "Alt Text",
-            "name": "text",
-            "valueType": "string",
-            "multi": true
-          }
+        {
+          "component": "text-input",
+          "label": "Alt Text",
+          "name": "text",
+          "valueType": "string",
+          "multi": true
+        }
       ]
     }
   ],
