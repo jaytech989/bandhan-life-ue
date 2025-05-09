@@ -837,8 +837,8 @@ export default function decorate(block) {
       }
 
       const resp = await fetchData(domainUrl);
-      console.log("Final Response:", resp.data.demoBanByPath.item.bannerText);
-       headingCf = resp.data.demoBanByPath.item.bannerText;
+      console.log("Final Response:", resp.data.bannerTextByPath.item.bannerText);
+       headingCf = resp.data.bannerTextByPath.item.bannerText;
        document.getElementById("disclaimer").append(headingCf);
     } catch (err) {
       console.error("Error during fetchData call:", err);
