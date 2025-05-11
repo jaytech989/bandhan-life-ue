@@ -718,7 +718,7 @@
         "component": "richtext",
         "name": "Heading2",
         "value": "",
-        "label": "Card Description",
+        "label": "Heading2",
         "valueType": "string",
         "multi": true
       },
@@ -726,7 +726,7 @@
         "component": "text",
         "name": "cardSubDesc",
         "value": "",
-        "label": "Card Sub Description",
+        "label": "cardSubDesc",
         "valueType": "string",
         "multi": true
       },
@@ -755,7 +755,7 @@
         "component": "richtext",
         "name": "headingquick",
         "value": "",
-        "label": "Heading1",
+        "label": "headingquick",
         "valueType": "string",
         "multi": true
       },
