@@ -582,40 +582,6 @@
     ]
   },
   {
-    "id": "most-mopular-quick",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Form Options",
-        "description": "",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Default",
-            "value": ""
-          }
-        ]
-      },
-      {
-        "component": "richtext",
-        "name": "Heading1",
-        "value": "",
-        "label": "Heading1",
-        "valueType": "string",
-        "multi": false
-      },
-      {
-            "component": "text-input",
-            "label": "Alt Text",
-            "name": "text",
-            "valueType": "string",
-            "multi": true
-          }
-    ]
-  },
-  {
     "id": "fragment",
     "fields": [
       {
@@ -729,6 +695,49 @@
         "component": "text-with-image",
         "label": "Text  with  Image",
         "name": "txtimg11"
+      }
+    ]
+  },
+  {
+    "id": "most-mopular-quick",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Teaser options",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Card Container",
+            "value": "card-container"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "richtxt",
+        "value": "",
+        "label": "Text",
+        "valueType": "string",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "txt",
+        "label": "Heading"
       }
     ]
   },

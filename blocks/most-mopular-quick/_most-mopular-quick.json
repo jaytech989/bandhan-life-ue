@@ -1,23 +1,24 @@
 {
   "definitions": [
+
     {
-      "title": "Most mopular quick",
+      "title": "Most Mopular Quick",
       "id": "most-mopular-quick",
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "core/franklin/components/block/v1/block",
+            "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "Most mopular quick",
-              "model": "most-mopular-quick",
-              "filter": "most-mopular-quick"
+              "name": "Card",
+              "model": "most-mopular-quick"
             }
           }
         }
       }
     }
   ],
-  "models": [ 
+  "models": [
+    
     {
       "id": "most-mopular-quick",
       "fields": [
@@ -48,40 +49,22 @@
         },
         {
           "component": "richtext",
-          "name": "text",
+          "name": "richtxt",
           "value": "",
           "label": "Text",
           "valueType": "string",
           "multi":false
         },
         {
-          "component": "multiselect",
-          "name": "style",
-          "label": "Card Style",
-          "options": [
-            {
-              "name": "ban-why-choose-model-ca",
-              "value": "ban-why-choose-model-ca"
-            },
-            {
-              "name": "card-shadow",
-              "value": "card-shadow"
-            },
-            {
-              "name": "Why iTerm Prime?",
-              "value": "bandhan-iterm-prime-cards"
-            }
-          ]
+          "component": "text",
+          "valueType": "string",
+          "name": "txt",
+          "label": "Heading"
         }
+      
       ]
     }
   ],
   "filters": [
-    {
-      "id": "most-mopular-quick",
-      "components": [
-        "inputform"
-      ]
-    }
   ]
 }
