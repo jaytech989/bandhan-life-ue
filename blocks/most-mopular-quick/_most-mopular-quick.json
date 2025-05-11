@@ -34,10 +34,10 @@
           "multi": false
         },
         {
-          "component": "richtext",
-          "name": "Heading2",
+          "component": "text",
+          "name": "head2",
           "value": "",
-          "label": "Heading2",
+          "label": "head2",
           "valueType": "string",
           "multi": true
         },
@@ -71,10 +71,10 @@
           "multi": true
         },
         {
-          "component": "richtext",
-          "name": "headingquick",
+          "component": "text",
+          "name": "Heading322",
           "value": "",
-          "label": "headingquick",
+          "label": "Heading3",
           "valueType": "string",
           "multi": true
         },
