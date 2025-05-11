@@ -17,7 +17,7 @@
       }
     }
   ],
-  "models": [
+  "models": [ 
     {
       "id": "most-mopular-quick",
       "fields": [
@@ -25,38 +25,53 @@
           "component": "select",
           "name": "classes",
           "value": "",
-          "label": "Form Options",
-          "description": "",
+          "label": "Teaser options",
           "valueType": "string",
           "options": [
-            {
-              "name": "Default",
-              "value": ""
-            }
+              {
+                  "name": "Default",
+                  "value": ""
+              },
+              {
+                  "name": "Card Container",
+                  "value": "card-container"
+              }
+      
           ]
-        },
+      },
         {
-          "component": "richtext",
-          "name": "Heading1",
-          "value": "",
-          "label": "Heading1",
-          "valueType": "string",
-          "multi": false
-        },
-        {
-          "component": "text-input",
-          "label": "Alt Text",
-          "name": "text",
-          "valueType": "string",
-          "multi": true
-        },
-           {
           "component": "reference",
           "valueType": "string",
           "name": "image",
           "label": "Image",
-          "multi": false,
-          "rootPath": "/content/dam/bandhan-life-ue-demo"
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string",
+          "multi":false
+        },
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Card Style",
+          "options": [
+            {
+              "name": "ban-why-choose-model-ca",
+              "value": "ban-why-choose-model-ca"
+            },
+            {
+              "name": "card-shadow",
+              "value": "card-shadow"
+            },
+            {
+              "name": "Why iTerm Prime?",
+              "value": "bandhan-iterm-prime-cards"
+            }
+          ]
         }
       ]
     }
