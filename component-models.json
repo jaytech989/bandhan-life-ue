@@ -715,28 +715,26 @@
         "multi": false
       },
       {
-        "component": "text",
-        "name": "head2",
-        "value": "",
-        "label": "head2",
-        "valueType": "string",
-        "multi": true
-      },
-      {
-        "component": "text",
-        "name": "cardSubDesc",
-        "value": "",
-        "label": "cardSubDesc",
-        "valueType": "string",
-        "multi": true
-      },
-      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
         "multi": true,
         "rootPath": "/content/dam/bandhan-life-ue-demo"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 1",
+        "name": "text1",
+        "valueType": "string",
+        "multi": true
+      },
+      {
+        "component": "text-input",
+        "label": "Text 2",
+        "name": "text2",
+        "valueType": "string",
+        "multi": true
       },
       {
         "component": "tab",
@@ -752,10 +750,9 @@
         "multi": true
       },
       {
-        "component": "text",
-        "name": "Heading322",
-        "value": "",
-        "label": "Heading3",
+        "component": "text-input",
+        "label": "Text 3",
+        "name": "text3",
         "valueType": "string",
         "multi": true
       },
