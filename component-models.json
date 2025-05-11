@@ -702,42 +702,75 @@
     "id": "most-mopular-quick",
     "fields": [
       {
-        "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Form Options",
-        "description": "",
-        "valueType": "string",
-        "options": [
+        "id": "tab",
+        "fields": [
           {
-            "name": "Default",
-            "value": ""
+            "component": "tab",
+            "label": "Most Popular",
+            "name": "tab1"
+          },
+          {
+            "component": "text",
+            "name": "MainHead",
+            "value": "",
+            "label": "Heading1",
+            "valueType": "string",
+            "multi": false
+          },
+          {
+            "component": "richtext",
+            "name": "Heading2",
+            "value": "",
+            "label": "Card Description",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "text",
+            "name": "cardSubDesc",
+            "value": "",
+            "label": "Card Sub Description",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image",
+            "multi": true,
+            "rootPath": "/content/dam/bandhan-life-ue-demo"
+          },
+          {
+            "component": "tab",
+            "label": "Tab 2",
+            "name": "tab2"
+          },
+          {
+            "component": "text",
+            "name": "quickhead",
+            "value": "",
+            "label": "Heading3",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "richtext",
+            "name": "headingquick",
+            "value": "",
+            "label": "Heading1",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "imagequick",
+            "label": "Image Quick",
+            "multi": true,
+            "rootPath": "/content/dam/bandhan-life-ue-demo"
           }
         ]
-      },
-      {
-        "component": "richtext",
-        "name": "Heading1",
-        "value": "",
-        "label": "Heading1",
-        "valueType": "string",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "name": "Heading3",
-        "value": "",
-        "label": "Heading3",
-        "valueType": "string",
-        "multi": true
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false,
-        "rootPath": "/content/dam/bandhan-life-ue-demo"
       }
     ]
   },
