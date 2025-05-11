@@ -112,18 +112,6 @@ main .section.smart-cal>.cards-with-paragraph-wrapper .cards-with-paragraph>div>
 
 }
 
-
-main .section.most-pop>.columns-wrapper>.columns-2-cols>div>div {
-
-    /* background-color: aqua; */
-
-    position: relative;
-    margin-right: 0;
-    padding-right: 1rem;
-    width: calc(50% - 2rem);
-
-}
-
 main .section.most-pop>.columns-wrapper>.columns-2-cols>div>div div.cards {
     display: flex;
     justify-content: space-between;
@@ -490,5 +478,10 @@ main .section.smart-cal>.cards-with-paragraph-wrapper .cards-with-paragraph>div>
 
     .section.certified-card.columns-container>.columns-wrapper>div>div:nth-child(1)>div{
         padding-left: 0;
+    }
+
+    .main .section.most-pop>.columns-wrapper>.columns-2-cols>div>div{
+        width: 100%;
+        font-size: 12px;
     }
 }
