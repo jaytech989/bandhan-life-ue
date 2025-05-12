@@ -259,6 +259,8 @@ async function fetchData(url) {
 
 
 export default function decorate(block) {
+  debugger
+  let path="";
     let headingCf=""
     let newImg="";
   const blockImg = block.children[10]
@@ -295,7 +297,7 @@ export default function decorate(block) {
   if(blockLink){
 
     const link=blockLink.querySelector("a");
-      const path = link ? link.getAttribute("href") : block.textContent.trim();
+      path = link ? link.getAttribute("href") : block.textContent.trim();
 
   }
   // //   const link = cfPath.
@@ -824,15 +826,16 @@ export default function decorate(block) {
   initFormHandler();
 
   (async () => {
+    debugger
     try {
       let domainUrl=""
       // const envCheck=isAuthorEnvironment();
       if(isAuthorEnvironment()){
 
-        domainUrl= "https://author-p102857-e1312424.adobeaemcloud.com/graphql/execute.json/bandhan-ue-demo/bannerquery;path=/content/dam/bandhan-ue-demo/banner-text-demo;variation=master"
+        domainUrl= "https://author-p102857-e1312424.adobeaemcloud.com/graphql/execute.json/bandhan-ue-demo/bannerquery;path="+path+";variation=master"
 
       }else{
-        domainUrl= "https://publish-p102857-e1312424.adobeaemcloud.com/graphql/execute.json/bandhan-ue-demo/bannerquery;path=/content/dam/bandhan-ue-demo/banner-text-demo;variation=master"
+        domainUrl= "https://publish-p102857-e1312424.adobeaemcloud.com/graphql/execute.json/bandhan-ue-demo/bannerquery;path="+path+";variation=master"
 
       }
 
