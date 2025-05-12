@@ -8,7 +8,7 @@ import {
 export default function decorate(block) {
   let popAllImg = "";
   const popImg = block.children[1];
-
+console.log("popImg",popImg)
   // const popImg = block.children[10]
   if (popImg && popImg.querySelector("picture > img")!==null) {
     const img = popImg.querySelector("picture > img");
