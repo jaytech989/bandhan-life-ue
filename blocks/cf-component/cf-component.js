@@ -41,6 +41,9 @@ export default function decorate(block) {
     divEl4.textContent = headingCf;
     divEl3.append(divEl4);
 
+
+    block.textContent = "";
+  block.append(divEl3);
  (async () => {
     try {
       let domainUrl=""

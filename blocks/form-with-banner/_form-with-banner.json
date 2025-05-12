@@ -56,7 +56,7 @@
           "label": "Gender",
           "name": "gender",
           "valueType": "string",
-          "collapsible": true,
+          "collapsible": false,
           "fields": [
             {
               "component": "text-input",
