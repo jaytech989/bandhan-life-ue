@@ -124,27 +124,6 @@
           }
         },
         {
-          "title": "AEM CF component",
-          "id": "aem-cf-component",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block"
-              },
-              "cf": {
-                "name": "AEM CF Block",
-                "cfModel": "/conf/bandhan-life-ue-demo/settings/dam/cfm/models/demo-ban",
-                "cfFolder": "/content/dam/bandhan-life-ue-demo/content-fragments",
-                "title": "Sample CF Title",
-                "description": "Sample description for the CF block.",
-                "template": {
-                  "bannerFiled": "Default Banner Text"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Cards with paragraph",
           "id": "cards-with-paragraph",
           "plugins": {
