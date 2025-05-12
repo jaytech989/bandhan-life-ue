@@ -190,6 +190,28 @@
           }
         },
         {
+          "title": "CF Block",
+          "id": "cf-block",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block"
+              },
+              "cf": {
+                "name": "CF Block",
+                "cfModel": "/conf/your-site/settings/dam/cfm/models/my-cf-model",
+                "cfFolder": "/content/dam/your-site/content-fragments",
+                "title": "New CF Title",
+                "description": "CF created via UE",
+                "template": {
+                  "title": "Default Title",
+                  "subtitle": "Default Subtitle"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Columns",
           "id": "columns",
           "plugins": {

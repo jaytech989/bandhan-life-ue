@@ -437,6 +437,17 @@
     ]
   },
   {
+    "id": "cf-block",
+    "fields": [
+      {
+        "component": "aem-content-fragment",
+        "name": "cfRef",
+        "label": "Select a Content Fragment",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
