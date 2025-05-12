@@ -437,6 +437,17 @@
     ]
   },
   {
+    "id": "cf-component",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "cf-path",
+        "label": "Content Fragment Path",
+        "rootPath": "/content/dam/bandhan-ue-demo"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
