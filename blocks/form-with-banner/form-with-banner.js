@@ -420,8 +420,8 @@ export default function decorate(block) {
       // Append inner div to the form
       divEl13.appendChild(btn);
     });
-    
-  if(genderButtonsArr) {
+
+  if(genderButtonsArr.length) {
     divEl11.append(h3El2);
     divEl11.append(divEl13);
   }
