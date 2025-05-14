@@ -99,6 +99,7 @@ console.log("popImg",popImg)
       "src",
       popAllImg
     );
+    imgEl.setAttribute("alt", "alt with text");
     imgEl.setAttribute("data-aue-prop", "image");
     pictureEl.append(imgEl);
     divEl9.append(pictureEl);
