@@ -827,7 +827,6 @@ export default function decorate(block) {
   initFormHandler();
 
   (async () => {
-    debugger
     try {
       let domainUrl=""
       // const envCheck=isAuthorEnvironment();
