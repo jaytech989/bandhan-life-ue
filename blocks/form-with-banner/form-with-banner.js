@@ -259,7 +259,6 @@ async function fetchData(url) {
 
 
 export default function decorate(block) {
-  debugger
   let path="";
     let headingCf=""
     let newImg="";
