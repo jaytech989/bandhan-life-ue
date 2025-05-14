@@ -265,7 +265,7 @@ export default function decorate(block) {
   const blockImg = block.children[10]
   if(blockImg){
     const img=blockImg.querySelector("picture > img");
-    const optimizedPic = createOptimizedPicture(img.src, img.alt, false, [
+    const optimizedPic = createOptimizedPicture(img.src, 'image with alt', false, [
       { width: "750" },
     ]);
     moveInstrumentation(img, optimizedPic.querySelector("img"));
