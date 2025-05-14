@@ -12,7 +12,7 @@ console.log("popImg",popImg)
   // const popImg = block.children[10]
   if (popImg && popImg.querySelector("picture > img")!==null) {
     const img = popImg.querySelector("picture > img");
-    const optimizedPic = createOptimizedPicture(img.src, img.alt, false, [
+    const optimizedPic = createOptimizedPicture(img.src, 'alt text', false, [
       { width: "750" },
     ]);
     moveInstrumentation(img, optimizedPic.querySelector("img"));
@@ -32,7 +32,7 @@ console.log("popImg",popImg)
   const quickImg = block.children[6];
   if (quickImg && quickImg.querySelector("picture > img")!==null) {
     const pimg = quickImg.querySelector("picture > img");
-    const qoptimizedPic = createOptimizedPicture(pimg.src, pimg.alt, false, [
+    const qoptimizedPic = createOptimizedPicture(pimg.src, 'alt text', false, [
       { width: "750" },
     ]);
     moveInstrumentation(pimg, qoptimizedPic.querySelector("img"));
