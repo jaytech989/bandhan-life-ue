@@ -235,6 +235,7 @@ console.log("popImg",popImg)
 
     const imgEl4 = document.createElement("img");
     imgEl4.setAttribute("src", quickAllImg);
+    imgEl4.setAttribute("alt", "alt for image");
     imgEl4.setAttribute("data-aue-prop", "image");
     pictureEl4.append(imgEl4);
     divEl30.append(pictureEl4);
