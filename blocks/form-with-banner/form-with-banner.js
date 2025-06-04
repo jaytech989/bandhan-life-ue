@@ -239,7 +239,7 @@ async function fetchData(url) {
   try {
     const response = await fetch(url, {
       method: "GET",
-      credentials: "include",
+      // credentials: "include",
     });
 
     console.log(response, "response");
