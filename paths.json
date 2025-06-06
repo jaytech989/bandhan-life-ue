@@ -3,9 +3,10 @@
     "/content/bandhan-ue-demo/:/",
     "/content/bandhan-ue-demo/configuration:/.helix/config.json",
     "/content/bandhan-ue-demo/metadata:/metadata.json",
-    "/content/bandhan-ue-demo/headers:/headers.json",
+    "/content/bandhan-ue-demo/headers:/.helix/headers.json",
     "/content/bandhan-ue-demo/spreadsheet:/spreadsheet.json",
-    "/content/bandhan-ue-demo/copy-spreadsheet:/copy-spreadsheet.json"
+    "/content/bandhan-ue-demo/copy-spreadsheet:/copy-spreadsheet.json",
+    "/content/bandhan-ue-demo/demo-spreedsheet:/demo-spreedsheet.json"
   ],
   "includes": [
     "/content/bandhan-ue-demo/"
